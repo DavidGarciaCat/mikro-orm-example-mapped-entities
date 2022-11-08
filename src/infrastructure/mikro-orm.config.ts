@@ -1,5 +1,5 @@
-import {Options} from "@mikro-orm/core";
-import {MariaDbDriver} from "@mikro-orm/mariadb";
+import { Options } from "@mikro-orm/core";
+import { MariaDbDriver } from "@mikro-orm/mariadb";
 import mikroOrmCredentials from "./mikro-orm.credentials";
 import mikroOrmEntities from "./mikro-orm.entities";
 

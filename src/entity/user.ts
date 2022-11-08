@@ -1,6 +1,6 @@
+import { Cascade, Entity, OneToOne, Property } from "@mikro-orm/core";
 import Aggregate from "./aggregate";
 import ReferralCode from "./referral-code";
-import {Cascade, Entity, OneToOne, Property} from "@mikro-orm/core";
 
 @Entity({ tableName: 'users' })
 export default class User extends Aggregate {

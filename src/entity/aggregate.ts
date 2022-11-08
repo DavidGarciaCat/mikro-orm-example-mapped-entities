@@ -1,5 +1,5 @@
 import { v4 } from 'uuid';
-import {PrimaryKey, PrimaryKeyProp, Property} from "@mikro-orm/core";
+import { PrimaryKey, Property } from "@mikro-orm/core";
 
 export default abstract class Aggregate {
     @PrimaryKey({ name: 'uuid', type: 'uuid' })

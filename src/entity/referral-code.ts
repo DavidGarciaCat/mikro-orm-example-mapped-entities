@@ -1,7 +1,7 @@
-import Aggregate from "./aggregate";
 import _ from 'lodash';
+import { Entity, OneToOne, Property } from "@mikro-orm/core";
+import Aggregate from "./aggregate";
 import User from "./user";
-import {Entity, OneToOne, Property} from "@mikro-orm/core";
 
 @Entity({ tableName: 'referral_codes' })
 export default class ReferralCode extends Aggregate {
